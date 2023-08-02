@@ -1,0 +1,5 @@
+0,fn+alt+f4
+0,fn+alt+f4
+1,alt+tab
+1,type keys sperated by +
+1,type keys sperated by +select below+select below+

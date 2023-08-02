@@ -1,0 +1,5 @@
+0,f5, SlideShow
+1,left, Previous Slide
+2,right, Next Slide
+3,esc, End SlideShow
+4,fn+alt+f4, Quite

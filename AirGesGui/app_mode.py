@@ -1,0 +1,21 @@
+import tkinter as tk
+root2 = tk.Tk()
+master=tk.PhotoImage(file= "c:/Users/APPAtacker.py/Desktop/im/hand.ppm", master=root2)
+root2.title('App Mode')
+app_frame = tk.Canvas(root2)
+app_frame.pack(fill='both', expand=True)
+app_frame.create_image(500,400,image = master)
+sclabel=tk.Label(app_frame,text="Select Application",padx=20,fg='BlaCk',font='forte 20 bold',bg='wHite')
+sclabel.place(x=100, y=50)
+options = [ "Microsoft Power Point", "Microsoft Word","Microsoft Excel","Microsoft paint","VLC Media Player","Chrome","Groove Music"]
+clicked = tk.StringVar()
+clicked.set("Microsoft Power Point")
+drop = tk.OptionMenu(app_frame , clicked ,*options)
+drop.config(padx=20,fg='Black',font='forte 18 bold',bg='white')
+drop['menu'].config(fg='Black',font='forte 18 bold',bg='white')
+drop.place(x=400,y=50)
+
+button1 = tk.Button(app_frame , text = "Start Presentation" ,padx=10,fg='BlaCk',font='forte 18 bold',bg='wHite' ).place(x=340,y=400)
+root2.geometry('900x500')
+root2.resizable(0,0)
+root2.mainloop()

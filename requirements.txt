@@ -1,0 +1,6 @@
+opencv-python==4.5.3.56
+PyAutoGUI==0.9.53
+mediapipe==0.8.3.1
+msvc-runtime==14.29.30133
+keyboard
+protobuf==3.20.x

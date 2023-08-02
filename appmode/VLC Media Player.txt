@@ -1,0 +1,5 @@
+0,space,Play or Pause
+1,left, Backward Play 
+2,right,Forward Play
+3,up,Volume up
+4,down,Volume down

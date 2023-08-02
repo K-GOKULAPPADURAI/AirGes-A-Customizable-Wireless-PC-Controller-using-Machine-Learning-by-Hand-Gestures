@@ -1,0 +1,5 @@
+0,Ctrl+P,Play or pause
+1,Ctrl+F,Skip to next song
+2,Ctrl+B,Restart current song or skip to previous
+3,F3,Volume up
+4,F4,Volume Down

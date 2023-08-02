@@ -1,0 +1,5 @@
+0,fn+alt+f4, To Quite
+1,left, Move left
+2,right, Move Right
+3,up, Move Up
+4,down, Move Down 

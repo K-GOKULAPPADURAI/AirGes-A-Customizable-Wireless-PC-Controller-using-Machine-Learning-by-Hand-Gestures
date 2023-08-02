@@ -1,0 +1,5 @@
+0,ctrl+w, To Close tab
+1,ctrl+shift+tab, To navigate backward tab
+2,ctrl+tab, To navigate forward tab
+3,up, Web page scroll up
+4,down, Web page scroll down 
